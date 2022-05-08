@@ -1,12 +1,12 @@
 # Example Helm values.yaml
 frontend:
   repository: my-app/frontend
-  tag: 1.1.0 # <- you want to change this value
+  tag: 2.1.0 # <- you want to change this value
 backend:
   repository: my-app/backend
-  tag: 1.1.0 # <- and this one
+  tag: 2.1.0 # <- and this one
   env:
   - name: TEST
-    value: bar  # <- and this one in a list, selected via sibling value 'TEST'
+    value: b2ar # <- and this one in a list, selected via sibling value 'TEST'
   - name: BAR
     value: boo
