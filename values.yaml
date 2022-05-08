@@ -4,7 +4,7 @@ frontend:
   tag: 1.1.0 # <- you want to change this value
 backend:
   repository: my-app/backend
-  tag: 1.0.0 # <- and this one
+  tag: 1.1.0 # <- and this one
   env:
   - name: TEST
     value: foo # <- and this one in a list, selected via sibling value 'TEST'
