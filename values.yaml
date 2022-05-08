@@ -1,7 +1,7 @@
 # Example Helm values.yaml
 frontend:
   repository: my-app/frontend
-  tag: 1.0.0 # <- you want to change this value
+  tag: 1.1.0 # <- you want to change this value
 backend:
   repository: my-app/backend
   tag: 1.0.0 # <- and this one
