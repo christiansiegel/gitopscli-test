@@ -2,7 +2,7 @@
 frontend:
   repository: my-app/frontend
   tag:       # <- you want to change this value
-    LOGSTASH_HOST: logstash
+    LOGSTASH_HOST: foo
     ELASTIC_APM_ENABLED: 'true'
 backend:
   repository: my-app/backend
