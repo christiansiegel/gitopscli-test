@@ -1,7 +1,9 @@
 # Example Helm values.yaml
 frontend:
   repository: my-app/frontend
-  tag: 2.1.0 # <- you want to change this value
+  tag:       # <- you want to change this value
+    LOGSTASH_HOST: logstash
+    ELASTIC_APM_ENABLED: 'true'
 backend:
   repository: my-app/backend
   tag: {foo: 1, bar: 2}                     # <- and this one
