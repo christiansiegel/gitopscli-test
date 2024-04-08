@@ -6,7 +6,7 @@ frontend:
     ELASTIC_APM_ENABLED: 'true'
 backend:
   repository: my-app/backend
-  tag: {foo: 1, bar: 2}                     # <- and this one
+  tag: 1.1.0                                # <- and this one
   env:
   - name: TEST
     value: bar # <- and this one in a list, selected via sibling value 'TEST'
