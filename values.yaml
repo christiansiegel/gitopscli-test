@@ -9,6 +9,6 @@ backend:
   tag: 1.1.0                                # <- and this one
   env:
   - name: TEST
-    value: bar2 # <- and this one in a list, selected via sibling value 'TEST'
+    value: bar  # <- and this one in a list, selected via sibling value 'TEST'
   - name: BAR
     value: boo
